@@ -3,7 +3,7 @@ import json
 from nose.tools import *
 import responses
 
-from pywik.api import ApiConnection
+from pypiwik.api import ApiConnection
 from tests import PywikTestCase
 
 

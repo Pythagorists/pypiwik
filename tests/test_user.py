@@ -1,6 +1,6 @@
 from nose.tools import *
 
-from pywik import User
+from pypiwik import User
 from tests import PywikTestCase
 
 

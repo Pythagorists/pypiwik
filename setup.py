@@ -27,12 +27,12 @@ with open('README.md') as f:
     long_description = f.read()
 
 setup(
-    name='pywik',
-    version=find_version('pywik', '__init__.py'),
+    name='pypiwik',
+    version=find_version('pypiwik', '__init__.py'),
     description="Python wrapper for the Piwik API",
     long_description=long_description,
 
-    url='http://github.com/lyndsysimon/pywik',
+    url='http://github.com/pythagorists/pypiwik',
 
     license='MIT',
 
@@ -48,7 +48,7 @@ setup(
 
     keywords='piwik',
 
-    packages=['pywik'],
+    packages=['pypiwik'],
 
     install_requires=[],
 )

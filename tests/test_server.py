@@ -1,7 +1,7 @@
 from nose.tools import *
 import responses
 
-from pywik import Server, User
+from pypiwik import Server, User
 from tests import PywikTestCase
 
 
