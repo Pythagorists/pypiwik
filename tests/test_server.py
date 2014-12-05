@@ -49,8 +49,8 @@ class ServerTestCase(PywikTestCase):
 
         assert_equal(
             [
-                User.from_dict(self.users['anonymous']),
-                User.from_dict(self.users['admin']),
+                User(**self.users['anonymous']),
+                User(**self.users['admin']),
             ],
             self.server.users,
         )

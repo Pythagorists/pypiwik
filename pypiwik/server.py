@@ -10,7 +10,7 @@ class Server(object):
     def users(self):
         if self.__users is None:
             self.__users = [
-                User.from_dict(u) for u in self._api.get(
+                User(**u) for u in self._api.get(
                     module='UsersManager',
                     method='getUsers',
                 )
